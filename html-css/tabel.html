@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan CSS Tabel 1</title>
+    <!-- Internal css -->
+    <style>
+      .tbl_1 {
+        font-family: sans-serif;
+        color: #444;
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid rgb(202, 198, 199);
+      }
+      /* ini untuk background header */
+      .tbl_1 tr th {
+        background: pink;
+        color: #fff;
+        font-weight: normal;
+      }
+      /* ini untuk jarak data header data data tabel */
+      .tbl_1 th,
+      td {
+        padding: 8px 20px;
+        text-align: center;
+      }
+      /* ini untuk ketika data disorot */
+      .tbl_1 tr:hover {
+        background: #f5f5f5;
+      }
+      /* ini untuk penentuan warna row data kedua */
+      .tbl_1 tr:nth-child(even) {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="tbl_1">
+      <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>Tempat Tanggal Lahir</th>
+        <th>Alamat</th>
+        <th>Pekerjaan</th>
+        <th>Usia</th>
+        <th>Alamat Email</th>
+        <th>Nama Institusi</th>
+      </tr>
+      <!-- Untuk Data Tabel -->
+      <tr>
+        <td>1</td>
+        <td>Asra Daud</td>
+        <td>kabila, 07 Desember 1993</td>
+        <td>Desa Tunggulo Kec. Tilongkabila Kab. Bone Bolango</td>
+        <td>Honorer</td>
+        <td>29 Tahun</td>
+        <td>asradaud93@gmail.com</td>
+        <td>Universitas Ichsan Gorontalo</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Sri Anggriani Lasulika</td>
+        <td>Suwawa, 01 Juli 1990</td>
+        <td>Desa Tinelo Kec. Suwawa Kab. Bone Bolango</td>
+        <td>Honorer</td>
+        <td>31 Tahun</td>
+        <td>anggrianilasulika@gmail.com</td>
+        <td>Universitas Ichsan Gorontalo</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Indrawati Otane</td>
+        <td>Suwawa, 28 Juni 1993</td>
+        <td>Desa Ulanta Kec. Suwawa Kab. Bone Bolango</td>
+        <td>Honorer</td>
+        <td>29 Tahun</td>
+        <td>indah.auel@gmail.com</td>
+        <td>Universitas Ichsan Gorontalo</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Indriyati T. Pilobu</td>
+        <td>Telaga, 20 Januari 2002</td>
+        <td>Desa TLuwoo Kec. Telaga Kab. Gorontalo</td>
+        <td>Honorer</td>
+        <td>20 Tahun</td>
+        <td>indripilobu@gmail.com</td>
+        <td>Universitas Ichsan Gorontalo</td>
+      </tr>
+    </table>
+  </body>
+</html>

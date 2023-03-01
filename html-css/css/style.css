@@ -1,0 +1,23 @@
+/* untuk body */
+body {
+  background-color: gainsboro;
+  font-family: sans-serif;
+}
+
+/* untuk class container */
+.container {
+  max-width: 1080px;
+  background-color: white;
+  margin: 20px auto;
+  padding: 15px;
+  overflow: hidden;
+}
+.header {
+  background-color: crimson;
+  color: white;
+  padding: 20px;
+}
+.header h2 {
+  margin-bottom: 70px;
+  font-size: 35px;
+}
